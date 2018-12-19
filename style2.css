@@ -1,47 +1,48 @@
 body,
 html {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 body {
-  font-family: 'Bungee', cursive;
+    font-family: 'Bungee', cursive;
 
 }
-nav{
+
+nav {
     z-index: 10;
 }
+
 .navbar {
-  margin-bottom: -10px;
+    margin-bottom: -10px;
 }
 
 .navbar-nav {
-  transform: none;
+    transform: none;
 
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  align-content: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
 
 }
 
 .logo {
-  display: inline-flex;
-  width: 300px;
-  height:300px;
-  align-items: center;
-  margin-top: 0px;
-  margin-bottom: 0px
-
+    display: inline-flex;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px
 }
-
 
 
 header {
     min-height: 100vh;
-    background: linear-gradient(rgba(255, 255, 255, 0.3),rgba(255, 255, 255, 0.3)),url(images/family.jpg)center/cover fixed no-repeat;
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)),
+        url(images/family.jpg)center/cover fixed no-repeat;
     display: flex;
     flex-direction: column;
 }
@@ -57,23 +58,25 @@ header {
 
 
 .banner {
-    flex:1 0 auto;
+    flex: 1 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    
+
 }
-.banner h1,h3 {
+
+.banner h1,
+h3 {
     color: #4D77F7;
-  
+
 }
 
 .banner h6 {
-    color: rgba(19,17,18, 0.8);
+    color: rgba(19, 17, 18, 0.8);
 }
 
-.banner h3{
+.banner h3 {
     margin-top: -10px
 }
 
@@ -81,18 +84,18 @@ header {
     padding: 20px;
 }
 
-.banner-icons a{
+.banner-icons a {
     display: inline-block;
     color: #D4DCFF;
     font-size: 25px;
     background: #4D77F7;
     padding: 5px 10px;
     margin: 0 10px;
-        border-radius: 50%;
-        transition: color 1s ease, transform 1s ease;
+    border-radius: 50%;
+    transition: color 1s ease, transform 1s ease;
 }
 
-.banner-icons a:hover{
+.banner-icons a:hover {
     color: #131112;
     transform: translateY(-10px);
 }

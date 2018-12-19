@@ -19,9 +19,9 @@ body {
   min-height: 100%;
 }
 
-nav{
-    position: fixed;
-    z-index: 10;
+nav {
+  position: fixed;
+  z-index: 10;
 }
 
 .navbar {
@@ -38,7 +38,7 @@ nav{
   flex-direction: column;
   align-content: flex-end;
 
-    
+
 }
 
 
@@ -52,8 +52,8 @@ nav{
 
 
 .startup {
-    font-size: 40px; 
-    color: #4d77f7;
+  font-size: 40px;
+  color: #4d77f7;
 }
 
 
@@ -75,7 +75,7 @@ hr {
 }
 
 .text-uppercase {
-    margin-top:
+  margin-top:
 }
 
 .faded {
@@ -83,10 +83,10 @@ hr {
   margin-bottom: 20px;
 }
 
- header.startup {
+header.startup {
   background-position: center;
   height: 100%;
-} 
+}
 
 header.startup hr {
   margin-top: 200px;
@@ -124,5 +124,3 @@ header.startup h1 {
   border-width: 5px;
   cursor: pointer;
 }
-
-
